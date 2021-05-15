@@ -1,6 +1,6 @@
 # KhanhTruong-Portfolio-Webpage
 
-Deployed Application:https://github.com/leeyoungk/KhanhTruong-Portfolio-Webpage
+Deployed Application:https://leeyoungk.github.io/KhanhTruong-Portfolio-Webpage/
 ## Description
 
 This is my first project assginment of creating a whole web application after 3 weeks in the bootcamp. The project incorporates both of these features: responsive web design and advanced CSS that I have been taught in the past 3 weeks. This is a much bigger picture than my last project that i had to spend much more time and also researched resources. Through out this project assignemnt, my knowlege and experience of Html and advaced css have improved alot more. I will need to do a alot more practices to become knowledgeable in web developing and this project helped me to get a foot in it.
