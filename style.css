@@ -107,7 +107,7 @@ figure {
 .link-folder {
   display: flex;
   position: relative;
-  width: calc(50% - 5px);
+  width: 50%;
   box-sizing: border-box;
   border: 4px lightblue;
   margin: 5px 0;
