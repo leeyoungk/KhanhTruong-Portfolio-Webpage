@@ -128,6 +128,13 @@ figure {
   padding: 5px 10px;
   background-color:lightblue;
 }
+.link-folder img{
+  opacity: .7;
+  transition: opacity .5s;
+}
+.link-folder img:hover {
+  opacity: 1;
+}
 .Flexcolumn ul {
   display: flex;
   justify-content: space-between;
@@ -146,4 +153,78 @@ figure {
 }
 .Flexcolumn li {
   margin: 2% 1% 0 1%;
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+ 
+  }
+  h1 {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  header nav {
+    margin-right: 0;
+    margin-top: 10px;
+}
+  header a {
+    font-size: 1.2rem;
+}
+figure {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+h2 {
+  position: initial;
+  margin-bottom: 5px;
+}
+.Flexcolumn {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 5% 30px 5%;
+}
+h3 {
+  width: 100%;
+  border-bottom: solid grey;
+  border-right: none;
+  padding: 0 0 8px 0;
+  margin-right: 0;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 2rem;
+}
+.Flexrow {
+  width: 100%;
+  justify-content: center;
+}
+.link-folder, .link-folder:first-child {
+  width:98%;
+}
+.link-folder img, .link-folder:first-child img {
+  height: 100px;
+  opacity: 1;
+}
+.Flexcolumn ul {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+.Flexcolumn ul a {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0 8px 2px 8px;
+}
+.Flexcolumn li {
+  margin-top: 0;
+  margin-bottom: 15px;
+  margin: 0 0 15px 0;
+}
+  
 }
