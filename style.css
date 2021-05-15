@@ -1,3 +1,7 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
 body {
   display: flex;
   flex-direction: column;
@@ -11,20 +15,48 @@ header {
   padding: 10px;
   background-color: #13293d;
   color: #fff;
+  justify-content: fl;
   
 }
-header h1 {
+h1 {
     font-size: 150%; 
     font-family: none;
     color: black;
     background-color: lightblue;
     height: 30px;
-    width: 150px;
-    padding-left: 30px;
+    width: 200px;
+    padding-left: 40px;
     margin-left: -10px;
     
     
     
+}
+h2 {
+  display: inline-block;
+  position: absolute;
+  background-color: lightblue;
+  font-size: 200%;
+  padding: 5px;
+  right: 5%;
+  bottom: 20px;
+ 
+}
+
+
+h3 {
+  font-size: 2rem;
+  border-right: solid grey;
+  padding: 5px 10px 0 0;
+  color: darkblue;
+  text-align: right;
+  margin-right: 20px;
+  display: inline-block;
+  width: 120px;
+}
+p {
+  color:darkblue;
+  margin-bottom: 15px;
+  opacity: .8;
 }
 
 nav {
@@ -45,21 +77,26 @@ nav a {
     padding: 5px;
 }
   
-main .background-image {
-  display: flex;
-  min-height: 200px;
-  align-items: center;
+figure {
+  height: 250px;
   width: 100%;
   background-image: url("./download.jpg") ;
-  background-size: auto;
-  justify-content: flex-end;
-
+  background-size: contain;
+  background-position: center;
+  position: relative;
 
 }
-.background-image h2 {
-  background-color: lightblue;
-  font-family: none;
-  font-size: 200%;
-  margin-top: 200px;
-  margin-right: 50px
+
+
+.Flexcolumn {
+  display: flex;
+  justify-content: flex-start;
+  
+  margin: 20px 5% 50px auto;
+}
+.Flexrow {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
